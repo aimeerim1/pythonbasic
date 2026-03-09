@@ -1,0 +1,11 @@
+prefix=/home/aimeerim/Desktop/dataengineering/udemy/python/venv
+exec_prefix=/home/aimeerim/Desktop/dataengineering/udemy/python/venv
+libdir=/home/aimeerim/Desktop/dataengineering/udemy/python/venv/lib
+includedir=/home/aimeerim/Desktop/dataengineering/udemy/python/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
